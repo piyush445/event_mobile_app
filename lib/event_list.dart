@@ -135,10 +135,10 @@ class _EventListState extends State<EventList> {
                                         height: 5.sp,
                                       ),
                                       ConstrainedBox(
-                                        constraints: BoxConstraints(maxWidth: 170.sp),
+                                        constraints: BoxConstraints(maxWidth: 180.sp),
                                         child: Row(
                                           crossAxisAlignment: CrossAxisAlignment.start,
-                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisAlignment: MainAxisAlignment.start,
                                           children: [
                                             Icon(
                                               Icons.location_on,
@@ -161,15 +161,16 @@ class _EventListState extends State<EventList> {
                                               ),
                                             ),
                                             Expanded(
-                                                child: Text(
-                                              " " +
-                                                  currentEvent.venueCity +
-                                                  "," +
-                                                  currentEvent.venuecountry,
-                                              maxLines: 1,
-                                              overflow: TextOverflow.ellipsis,
-                                              style: TextStyle(fontSize: 8.sp, color: Colors.grey),
-                                            ))
+                                              child: Text(
+                                                " " +
+                                                currentEvent.venueCity +
+                                                "," +
+                                                currentEvent.venuecountry,
+                                                maxLines: 1,
+                                                overflow: TextOverflow.ellipsis,
+                                                style: TextStyle(fontSize: 8.sp, color: Colors.grey),
+                                              ),
+                                            )
                                           ],
                                         ),
                                       )
