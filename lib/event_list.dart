@@ -63,9 +63,9 @@ class _EventListState extends State<EventList> {
                     child: GestureDetector(
                       onTap: () {
                         Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (builder) => EventScreen(event: currentEvent)));
+                          context,
+                          MaterialPageRoute(
+                            builder: (builder) => EventScreen(event: currentEvent)));
                       },
                       child: Card(
                         elevation: 0.5,

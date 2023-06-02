@@ -235,18 +235,16 @@ class _EventScreenState extends State<EventScreen> {
     String month = DateFormat.MMMM().format(dateTime);
     String date = DateFormat.d().format(dateTime);
 
-
-    return date +" "+month+", "+year;
+    return date + " " + month + ", " + year;
   }
 
-  String _parseTime(data){
+  String _parseTime(data) {
     DateTime dateTime = DateTime.parse(data);
 
     String dayOfWeek = DateFormat.EEEE().format(dateTime);
 
-
     String time = DateFormat.jm().format(dateTime);
-    return dayOfWeek+" "+time;
+    return dayOfWeek + " " + time;
   }
 
   Widget _bookNowButton() {
