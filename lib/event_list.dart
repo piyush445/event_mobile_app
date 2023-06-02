@@ -199,7 +199,7 @@ class _EventListState extends State<EventList> {
     String date = DateFormat.d().format(dateTime);
 
 
-    return dayOfWeek + "," + month + "" + date+" ";
+    return dayOfWeek + ", " + month + " " + date+" ";
   }
 
   String _parseTime(data){

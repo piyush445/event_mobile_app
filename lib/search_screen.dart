@@ -116,7 +116,7 @@ class _SearchScreenState extends State<SearchScreen> {
     String month = DateFormat.MMMM().format(dateTime);
     String date = DateFormat.d().format(dateTime);
 
-    return dayOfWeek + "," + month + "" + date + " ";
+    return dayOfWeek + ", " + month + " " + date + " ";
   }
 
   String _parseTime(data) {
