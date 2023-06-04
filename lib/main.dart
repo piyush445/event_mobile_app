@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       child: Sizer(
           builder: (context,orientation, deviceType) {
             return const MaterialApp(
-              title: 'Flutter Bloc Demo',
+              title: 'Flutter event Appp',
               debugShowCheckedModeBanner: false,
               home: EventList(),
             );
